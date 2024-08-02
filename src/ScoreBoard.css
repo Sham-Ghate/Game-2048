@@ -1,0 +1,45 @@
+.score-board {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #fafafa;
+}
+
+.score,
+.best-score {
+  margin: 0;
+}
+
+@keyframes score-increase {
+  0% {
+    color: #333;
+    transform: scale(1);
+  }
+  50% {
+    color: #f39c12; /* Highlight color */
+    transform: scale(1.2);
+  }
+  100% {
+    color: #333;
+    transform: scale(1);
+  }
+}
+
+.score {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.score.increase {
+  animation: score-increase 0.5s ease;
+}
+
+.best-score {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}

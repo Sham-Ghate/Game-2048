@@ -1,0 +1,81 @@
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  position: relative; /* Make sure the overlay is positioned relative to this container */
+}
+
+.restart-button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.restart-button:hover {
+  background-color: #45a049;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-gap: 5px;
+  position: relative; /* Ensure the board is positioned relative to the container */
+}
+
+.blurred {
+  filter: blur(5px); /* Blur effect for the board */
+}
+
+.tile {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #eee;
+  color: #333;
+}
+
+/* Tile colors */
+.tile-2 {
+  background-color: #eee4da;
+  color: #776e65;
+}
+.tile-4 {
+  background-color: #ede0c8;
+  color: #776e65;
+}
+/* Add more styles for other tile values as needed */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 10;
+}
+
+.overlay-message {
+  text-align: center;
+}
+
+.overlay .restart-button {
+  margin-top: 20px;
+}
