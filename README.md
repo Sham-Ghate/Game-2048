@@ -62,27 +62,27 @@ To get started with the project, follow these steps:
   
 ***Contributing***
 
-      -If you'd like to contribute to this project, please follow these steps:
+   - **If you'd like to contribute to this project, please follow these steps:**
 
-                   1.Fork the repository.
+     1.Fork the repository.
 
-                   2.Create a new branch (git checkout -b feature/YourFeature).
+     2.Create a new branch (git checkout -b feature/YourFeature).
   
-                   3.Commit your changes (git commit -am 'Add new feature').
+     3.Commit your changes (git commit -am 'Add new feature').
   
-                   4.Push to the branch (git push origin feature/YourFeature).
+     4.Push to the branch (git push origin feature/YourFeature).
   
-                   5.Create a new Pull Request.
+     5.Create a new Pull Request.
   
 ## License
 
-    -This project is licensed under the MIT License. See the LICENSE file for details.
+- **This project is licensed under the MIT License. See the LICENSE file for details.**
 
 ## Acknowledgments
 
-    Inspired by the classic 2048 game.(https://play2048.co/)
+- **Inspired by the classic 2048 game.(https://play2048.co/)**
 
-    Special thanks to the React community for their support and resources.
+- **Special thanks to the React community for their support and resources.**
 
 
 
